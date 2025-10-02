@@ -6,7 +6,7 @@ body {
     color: #509b99;
     
 }
-
+/*comment*/
 header {
     color: #44c6c2;
     padding: .5rem 10px;
@@ -69,5 +69,7 @@ main address { font-style: normal;
     border-radius: 10px;
     border: 1px solid #291c45;
     width: 200px;}
-
+ footer {
+    
+ }
 
