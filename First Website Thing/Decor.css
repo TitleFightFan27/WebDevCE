@@ -69,6 +69,60 @@ main address { font-style: normal;
     border-radius: 10px;
     border: 1px solid #291c45;
     width: 200px;}
+
+
+
+    
+.myForm fieldset {
+    color: #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #43a0b6;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5em;
+}
+
+.myForm label .myForm select, .myForm  [type=text],  .myForm textarea{
+    display: block;
+}
+.myForm  [type=text],  .myForm textarea {
+ 
+    border: solid 1px #43a0b6;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+  
+
+
+}
+.myForm textarea {
+    height: 6rem;
+    background-color: #43a0b6;
+    padding: 10px;
+}
+
+.myForm :required, .myForm [type=text] {
+    background-color: rgb(156,51,52,0.1);
+}
+
+
+
+.myForm [type=submit] {
+background-color: #43a0b6;
+border: none;
+padding: 1rem 2rem;
+border-radius:10px;
+color: white;
+margin: 1rem 0 0 1vw;
+
+}
+
  footer {
     
  }
