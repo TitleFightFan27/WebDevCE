@@ -10,7 +10,7 @@ body {
 header {
     color: #44c6c2;
     padding: .5rem 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background-color: #415b7e;
 }
 header h1 {
@@ -18,30 +18,60 @@ header h1 {
     margin: 0;
 }
 
+header h2 {
+    margin-bottom: 0;
+}
+
 header span{
 font-size:  1.6rem; ;
 }
 
+
+
+nav {
+    background-color: #415b7e;
+}
 nav h3 {
     color: #44c6c2;
     margin: 0;
 }
 nav ul {
-    margin: 0;
-    padding: 0 10px;
+    margin: 0px;
+    padding: 0rem 10px;
+    background-color: #415b7e;
+    display: flex;
+}
+
+nav li {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 700;
+
 }
 
 nav a {
   
     color: #64e7dd;
     text-decoration: none;
-    font-size: 1.1rem;
-    
-    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    display: flex;
 
 }
-nav li a:hover{
+
+nav li.active a{
+
+    color: #64e709;
+
+}
+
+nav ul li a:hover{
  color: white;
+}
+nav ul a:hover {
+    color: white;
 }
 main h2 {
      color: #44c6c2;
@@ -71,6 +101,10 @@ main address { font-style: normal;
     width: 200px;}
 
 
+
+.myForm text {
+   color: aliceblue;
+}
 
     
 .myForm fieldset {
