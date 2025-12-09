@@ -26,55 +26,112 @@ header span{
 font-size:  1.6rem; ;
 }
 
+/*Small screen nav*/
 
+@media only screen and (max-width: 800px) {
+
+
+
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav a {
+display: block;
+text-decoration: none;
+padding: .8rem;
+color: #44c6c2 ;
+text-align: center;
+font-weight: 700;
+text-transform: capitalize;
+
+
+
+}
+
+nav .active a {
+background-color: #509b99;
+    color: #291c45;
+    
+
+}
+
+
+
+
+
+
+}
+
+
+/*big screen thing now*/
+
+@media only screen and (min-width: 801px) {
 
 nav {
-    background-color: #415b7e;
-}
-nav h3 {
-    color: #44c6c2;
-    margin: 0;
-}
-nav ul {
-    margin: 0px;
-    padding: 0rem 10px;
-    background-color: #415b7e;
-    display: flex;
+border-top: solid 1px;
+color: #43a0b6 ;
+
 }
 
-nav li {
-    display: block;
-    padding: 10px 10px 10px 10px;
-    font-size: 1.1rem;
-    text-decoration: none;
-    font-weight: 700;
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+display: flex;
+list-style-type: none;
+
+
 
 }
 
 nav a {
-  
-    color: #64e7dd;
+display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    color: #43a0b6;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #43a0b6;
+
+
+
+
 
 }
 
-nav li.active a{
+nav .active a {
+border-bottom: solid 2px #44c6c2;
+color: #64e7dd;
+}
 
-    color: #64e709;
+nav a:hover {
+color: #fff;
 
 }
 
-nav ul li a:hover{
- color: white;
+
+
+
+
+
+
 }
-nav ul a:hover {
-    color: white;
-}
+
+
 main h2 {
      color: #44c6c2;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
 }
 
 main dl dt {
@@ -172,4 +229,9 @@ div.gallery figcaption {
     font-size: .8rem;
     color: #b64e11;
 }
+header, nav, main, footer {
+    max-width: 64rem ;
+    margin: 0 auto;
+
+ }
 
