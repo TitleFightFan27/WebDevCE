@@ -22,10 +22,7 @@ header {
    background-image: linear-gradient(to bottom,#509b99,#5f4999);
     
 }
-header img {
-    
 
-}
 header h1 {
     padding: 0;
     margin: 0;
@@ -144,6 +141,11 @@ main h2 {
      color: #44c6c2;
 }
 
+main iframe {
+    text-align: center;
+    display: flexbox;
+}
+
 .hero {
     width: 100%;
     height: auto;
@@ -176,8 +178,23 @@ main address { font-style: normal;
     border: 1px solid #291c45;
     width: 200px;}
 
+main table{
+    color: #64e7dd;
+    box-sizing: border-box;
+    border: 1px solid#64e7dd;
+    background-color: #415b7e;
+    font-size: large;
+    
+}
+main table td {
+    background-color: #291c45;
+}
 
+    
 
+#coolio{
+    background-color: #5f4999;
+}
 .myForm text {
    color: aliceblue;
 }
